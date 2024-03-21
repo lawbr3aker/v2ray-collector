@@ -3,8 +3,7 @@
   "module": "",
   "type": "module",
   "scripts": {
-    "index": "node build/index.js",
-    "start": "npm run index"
+    "start": "node build/index.js"
   },
   "devDependencies": {
     "@types/bun": "latest"
