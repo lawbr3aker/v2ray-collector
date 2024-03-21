@@ -1,9 +1,10 @@
 {
   "name": "v2ray-collector",
-  "module": "app.ts",
+  "module": "",
   "type": "module",
   "scripts": {
-    "app": "bun run app.ts"
+    "app": "bun run index.ts",
+    "start": "bun run app"
   },
   "devDependencies": {
     "@types/bun": "latest"
