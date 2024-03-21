@@ -3,8 +3,8 @@
   "module": "",
   "type": "module",
   "scripts": {
-    "app": "bun run index.ts",
-    "start": "bun run app"
+    "index": "node build/index.js",
+    "start": "npm run index"
   },
   "devDependencies": {
     "@types/bun": "latest"
